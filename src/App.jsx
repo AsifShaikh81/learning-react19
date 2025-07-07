@@ -16,6 +16,7 @@ import Pr, { Dpr,Opr,Vpr,Apr,Epr} from './7-props/props';
 import { useState } from 'react';
 import Defpara,{Pjwp,Cswp}from './7.1-Adv props/adv-props';
 import Gin from './8-getting input/GI';
+import Controlled from './9-controlled component/Cc';
 
 
 function App() {
@@ -126,6 +127,10 @@ function App() {
       <h5>getting input field value</h5>
       <Gin></Gin>
 
+     {/* ----------chp 9 -------------- */}
+     <h1>chp-9</h1>
+     <h5>controlled component</h5>
+     <Controlled></Controlled>
     </div>
   );
 }
