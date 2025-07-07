@@ -14,10 +14,11 @@ import Ex2 from './5-state/exercise-2';
 import Cr from './6-Conditional-Rendering/cr';
 import Pr, { Dpr,Opr,Vpr,Apr,Epr} from './7-props/props';
 import { useState } from 'react';
+import Defpara,{Pjwp,Cswp}from './7.1-Adv props/adv-props';
 
 
 function App() {
-      //refer chp no 6
+      //refer chp no 7
       let obj ={Name:"peter" , 
         Age:20,
         Ph:9012345678 
@@ -28,7 +29,7 @@ function App() {
       let Carr = ["iit","nit","mit","iet"]
     // -------------------
     const [std,setStd] = useState()
-      //refer chp no 6
+      //refer chp no 7
 
   return (
     <div>
@@ -101,7 +102,24 @@ function App() {
      <Apr college={Carr[2]} ></Apr>
      <h5>Pass Props on Click (Dynamic Props)</h5>
     { std && <Epr name={std}></Epr>}
-     <button onClick={()=>{setStd("aaa")}}> click to se me</button>
+     <button onClick={()=>{setStd("aaa")}}> click to see me</button>
+
+     {/* ----------chp 7.1-------------- */}
+     <h1>Chp-7.1</h1>
+     <h5>Default parameter</h5>
+     <Defpara name='Asif'></Defpara>
+     <Defpara ></Defpara> {/* no props used so default parameter is passed */}
+     
+     <h5>Passing jsx with props</h5>
+     <Pjwp>
+      {/* cannot use html element directly inside component so passing it as a props */}
+       <p> HELLO WORLD</p>
+     </Pjwp>
+
+     <h5>Passing style with props</h5>
+     {/* passing stylw with props as well as using default param for color: "color = red" */}
+      <Cswp color='blue'></Cswp>
+
     </div>
   );
 }
