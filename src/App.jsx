@@ -15,6 +15,7 @@ import Cr from './6-Conditional-Rendering/cr';
 import Pr, { Dpr,Opr,Vpr,Apr,Epr} from './7-props/props';
 import { useState } from 'react';
 import Defpara,{Pjwp,Cswp}from './7.1-Adv props/adv-props';
+import Gin from './8-getting input/GI';
 
 
 function App() {
@@ -109,7 +110,7 @@ function App() {
      <h5>Default parameter</h5>
      <Defpara name='Asif'></Defpara>
      <Defpara ></Defpara> {/* no props used so default parameter is passed */}
-     
+
      <h5>Passing jsx with props</h5>
      <Pjwp>
       {/* cannot use html element directly inside component so passing it as a props */}
@@ -119,6 +120,11 @@ function App() {
      <h5>Passing style with props</h5>
      {/* passing stylw with props as well as using default param for color: "color = red" */}
       <Cswp color='blue'></Cswp>
+
+     {/* ----------chp 8 -------------- */}
+      <h1>Chp-8</h1>
+      <h5>getting input field value</h5>
+      <Gin></Gin>
 
     </div>
   );
