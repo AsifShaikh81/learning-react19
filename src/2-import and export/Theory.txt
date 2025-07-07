@@ -1,0 +1,44 @@
+// !import and export -------------------
+// *Example Use Case
+// If you create an Image component, you can reuse it in multiple places like:
+// 
+// Profile picture
+// Post section
+// Navbar
+// Dropdown
+// 
+// This keeps your code modular and reusable.
+
+// *Three types of import and export
+
+ 1.Default export
+ Syntax : export default ComponentName
+ Import Syntax: import ComponentName from "file"
+ sample:Export:
+         export default Login;
+
+        Import:
+         import Login from "./UserComponent.jsx";        
+
+ 2.Named Export
+ Syntax : export { ComponentName } or export const
+ Import Syntax : import { ComponentName } from "file"
+ sample:Export:
+         export function Profile() {
+         return <h1>Profile</h1>;
+                                   }
+
+         export function Setting() {
+         return <h1>Setting</h1>;
+                                   }
+        Import:
+        import { Profile, Setting } from "./UserComponent.jsx";
+ 
+ 
+ 3.Combined Export
+ Syntax : Default + Named
+ Import Syntax :import Default, { Named1, Named2 }
+ check example-"import-export.jsx"
+
+ 4. variable 
+ check example-"import-export.jsx"

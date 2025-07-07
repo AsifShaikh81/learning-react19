@@ -1,0 +1,6 @@
+const [state, setState] = useState(initialState);
+
+In this syntax
+state: The current state value.
+setState: A function that is used to update the state.
+initialState: The initial value that the state will hold when the component is first rendered.

@@ -1,0 +1,12 @@
+//*interview questiion  <-------
+// Component vs Normal Function
+// Normal Function Can start with lowercase
+// Executes JavaScript logic
+// Called like myFunction()
+// Any data type  
+
+// *React Component
+// Must start with a Capital Letter
+// Returns JSX (UI)
+// Used like <MyComponent />
+// Returns JSX (HTML-like)

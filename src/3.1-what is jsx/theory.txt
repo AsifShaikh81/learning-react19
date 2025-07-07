@@ -1,0 +1,11 @@
+What is JSX?
+It is a syntax extension for JavaScript that allows you to write HTML-like code inside JavaScript files.
+
+Why use JSX?
+JSX makes it easier and cleaner to create React elements and build the UI.
+
+Without JSX: HTML and JavaScript are written separately.
+With JSX: You can write both together in the same file.
+
+JSX Full Form
+There’s often some confusion about what JSX stands for. Some say it means JavaScript Extension, while others believe it's JavaScript XML. However, there is no official full form of JSX mentioned on the React official website — it’s just a syntax extension used to write HTML-like code in JavaScript.
