@@ -19,6 +19,7 @@ import Gin from './8-getting input/GI';
 import Controlled from './9-controlled component/Cc';
 import Checkbox from './10-handle-checkbox/hc';
 import Hrd from './11-Handle Radio and Dropdown/hrd';
+import { MapLoop } from './12-loop in jsx with map function/map';
 
 
 function App() {
@@ -141,6 +142,10 @@ function App() {
      <h1>chp-11</h1>
      <h5>Handle Radio and Dropdown</h5>
      <Hrd></Hrd>
+     {/* ----------chp 12 -------------- */}
+     <h1>chp-12</h1>
+     <h5>lopp in jsx (map)</h5>
+     <MapLoop></MapLoop>
     </div>
   );
 }
