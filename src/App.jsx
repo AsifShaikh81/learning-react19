@@ -17,6 +17,8 @@ import { useState } from 'react';
 import Defpara,{Pjwp,Cswp}from './7.1-Adv props/adv-props';
 import Gin from './8-getting input/GI';
 import Controlled from './9-controlled component/Cc';
+import Checkbox from './10-handle-checkbox/hc';
+import Hrd from './11-Handle Radio and Dropdown/hrd';
 
 
 function App() {
@@ -131,6 +133,14 @@ function App() {
      <h1>chp-9</h1>
      <h5>controlled component</h5>
      <Controlled></Controlled>
+     {/* ----------chp 10 -------------- */}
+     <h1>Chp-10</h1>
+     <h5>handel checkbox</h5>
+     <Checkbox></Checkbox>
+     {/* ----------chp 11 -------------- */}
+     <h1>chp-11</h1>
+     <h5>Handle Radio and Dropdown</h5>
+     <Hrd></Hrd>
     </div>
   );
 }
