@@ -1,3 +1,4 @@
+import Rcil from "./Reuse-comp-in-loop";
 export function MapLoop(){
     // const userData = ["Anil", "Sam", "Peter", "Bruce"];
     // const collegeData = ["IET", "IIT", "NIT"];
@@ -86,7 +87,13 @@ export function MapLoop(){
       })}
     </tbody>
   </table>
-    
+
+    <h3>Reuse component in loop</h3>
+    {userData.map((user)=>(
+      <div>
+        <Rcil Data={user}></Rcil>
+      </div>
+    ))}
      </div>
     )
 }

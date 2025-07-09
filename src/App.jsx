@@ -146,6 +146,7 @@ function App() {
      <h1>chp-12</h1>
      <h5>lopp in jsx (map)</h5>
      <MapLoop></MapLoop>
+     
     </div>
   );
 }
