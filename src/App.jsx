@@ -20,6 +20,8 @@ import Controlled from './9-controlled component/Cc';
 import Checkbox from './10-handle-checkbox/hc';
 import Hrd from './11-Handle Radio and Dropdown/hrd';
 import { MapLoop } from './12-loop in jsx with map function/map';
+import Nl from './13-Nesting looping with nested array/NL';
+import { Hook } from './14-Hooks/hooks';
 
 
 function App() {
@@ -146,6 +148,14 @@ function App() {
      <h1>chp-12</h1>
      <h5>lopp in jsx (map)</h5>
      <MapLoop></MapLoop>
+     {/* ----------chp 13 -------------- */}
+     <h1>Chp-13</h1>
+     <h5>Nesting looping with nested array</h5>
+     <Nl></Nl>
+     {/* ----------chp 14 -------------- */}
+     <h1>Chp-14</h1>
+     <h5>Hook</h5>
+     <Hook></Hook>
      
     </div>
   );

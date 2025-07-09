@@ -1,0 +1,23 @@
+// !useEffect - it helps you manage and control side effects in React.
+
+import { useState } from "react"
+
+//! 🔍 Why this matters:
+
+// !React components shouldn't have side effects inside the main body of the function, because it can cause:
+// *Unwanted re-renders
+// *Performance issues
+// *Inconsistent behavior
+
+// !Instead, React says:
+// *“If you want to do a side effect, do it safely inside useEffect after the DOM has been updated.”
+
+// !✅ What is a side effect in React (or in programming in general)?
+// *A side effect is any action that happens outside of the scope of the function or affects something outside the function.
+
+// !❌ Example with Side Effect:
+// let count = 0;
+
+// function increaseCount() {
+//   count++; // *This is a side effect: modifying external variable
+// }
