@@ -17,6 +17,8 @@ function forCount (){
 // jab bhi mein count button pe click karta hoon ye pura component re-render hota hai and callOnce() function ek baar call hone ki bajaye woh bar bar call hora hai jab bhi component re-render hota hai , this what we call side effects and to handel this we use "useEffect" hook 
 // callOnce();//* this will cause issue
 
+//*SAME FOR THE PROPS
+
 useEffect(()=>{
     callOnce();
     

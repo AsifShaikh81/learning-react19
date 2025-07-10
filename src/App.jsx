@@ -21,7 +21,9 @@ import Checkbox from './10-handle-checkbox/hc';
 import Hrd from './11-Handle Radio and Dropdown/hrd';
 import { MapLoop } from './12-loop in jsx with map function/map';
 import Nl from './13-Nesting looping with nested array/NL';
-import { Hook } from './14-Hooks/hooks';
+import { Hook } from './14-useEffect-Hook/hooks';
+import Lc from './14.1-Life cycle in React js/Lifecycle';
+import Inline from './15-style in react/inline';
 
 
 function App() {
@@ -156,7 +158,14 @@ function App() {
      <h1>Chp-14</h1>
      <h5>Hook</h5>
      <Hook></Hook>
-     
+     {/* ----------chp 14.1 -------------- */}
+     <h1>Chp-14.1</h1>
+     <h5>Life cycle in react js </h5>
+     <Lc></Lc>     
+     {/* ----------chp 15 -------------- */}
+     <h1>Chp-15</h1>
+     <h5>style in react</h5>
+     <Inline></Inline>
     </div>
   );
 }

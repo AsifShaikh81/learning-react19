@@ -1,0 +1,23 @@
+In HTML:
+<div style="color: blue; background-color: red;">
+  This is a div with inline styles.
+</div>
+
+
+In React:
+<div style={{ color: 'red', backgroundColor: 'green' }}>
+  React JS Style
+</div>
+
+
+Notes:
+Style is passed as a JavaScript object inside JSX.
+CSS properties must be written in camelCase.
+Use commas, not semicolons, after each property.
+
+
+How is React inline style different from regular HTML style?
+In HTML: style is a string ("color: red;")
+In React: style is an object ({ color: 'red' })
+Property names use camelCase instead of kebab-case.
+Values are in quotes if they are strings.
