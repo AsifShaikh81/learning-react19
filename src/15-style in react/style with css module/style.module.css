@@ -1,0 +1,18 @@
+.heading {
+  color: yellow;
+}
+
+.Img {
+  width: 200px;
+}
+
+
+
+.Wrap {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}

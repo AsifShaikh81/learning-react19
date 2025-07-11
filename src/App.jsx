@@ -1,6 +1,7 @@
 // import { useState } from 'react'/
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+
 import './App.css';
 import { Fruit,Color } from './1-component/cp';
 import Login,{Profile, Setting, UserKey} from './2-import and export/import-export';
@@ -23,8 +24,12 @@ import { MapLoop } from './12-loop in jsx with map function/map';
 import Nl from './13-Nesting looping with nested array/NL';
 import { Hook } from './14-useEffect-Hook/hooks';
 import Lc from './14.1-Life cycle in React js/Lifecycle';
-import Inline from './15-style in react/inline';
-import DynamicInline from './15-style in react/Dynamic and Conditional Inline Style';
+import Inline from './15-style in react/inline/inline';
+import DynamicInline from './15-style in react/inline/Dynamic and Conditional Inline Style';
+import ExtCss from './15-style in react/external css/External Style in React js';
+import ModuleCss from './15-style in react/style with css module/Style with CSS Modules';
+import { StlComponent } from './15-style in react/styled compoment/Styled Components';
+import { Boot } from './15-style in react/bootstrap/boot';
 
 
 function App() {
@@ -168,6 +173,12 @@ function App() {
      <h5>style in react</h5>
      <Inline></Inline>
      <DynamicInline></DynamicInline>
+     <ExtCss></ExtCss>
+     <ModuleCss></ModuleCss>
+     <h3>styled component</h3>
+     <StlComponent></StlComponent>
+     <Boot></Boot>
+  
     </div>
   );
 }
