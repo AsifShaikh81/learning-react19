@@ -24,6 +24,7 @@ import Nl from './13-Nesting looping with nested array/NL';
 import { Hook } from './14-useEffect-Hook/hooks';
 import Lc from './14.1-Life cycle in React js/Lifecycle';
 import Inline from './15-style in react/inline';
+import DynamicInline from './15-style in react/Dynamic and Conditional Inline Style';
 
 
 function App() {
@@ -166,6 +167,7 @@ function App() {
      <h1>Chp-15</h1>
      <h5>style in react</h5>
      <Inline></Inline>
+     <DynamicInline></DynamicInline>
     </div>
   );
 }
