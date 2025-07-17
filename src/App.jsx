@@ -30,7 +30,8 @@ import ExtCss from './15-style in react/external css/External Style in React js'
 import ModuleCss from './15-style in react/style with css module/Style with CSS Modules';
 import { StlComponent } from './15-style in react/styled compoment/Styled Components';
 import { Boot } from './15-style in react/bootstrap/boot';
-
+import Rr from './16-react-router/rr'
+import { NestedRoute } from './16.1-nested,layout,index-route/nested,layout,index-route,dynamic';
 
 function App() {
       //refer chp no 7
@@ -178,6 +179,14 @@ function App() {
      <h3>styled component</h3>
      <StlComponent></StlComponent>
      <Boot></Boot>
+
+     {/* ----------chp 16 -------------- */}
+     <h1>Chp-16</h1>
+     <h5>React Router</h5>
+     <Rr></Rr>
+     <h5> Nested Route</h5>
+     <NestedRoute></NestedRoute>
+
   
     </div>
   );

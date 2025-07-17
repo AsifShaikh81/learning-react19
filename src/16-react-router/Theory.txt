@@ -1,0 +1,1 @@
+client side routing : it doesn't refresh (server pe request nahi karta )
