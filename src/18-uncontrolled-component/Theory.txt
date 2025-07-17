@@ -1,0 +1,5 @@
+whenever we talk about controlled and uncontrolled component toh samajh lena joh apke paas component hai uske andar inputs field ya form bana hua hai 
+
+In controlled component we use state to control input fileds
+
+In uncontrolled component we don't use state ,directly get value from dom object, we also use useRef

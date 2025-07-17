@@ -30,8 +30,14 @@ import ExtCss from './15-style in react/external css/External Style in React js'
 import ModuleCss from './15-style in react/style with css module/Style with CSS Modules';
 import { StlComponent } from './15-style in react/styled compoment/Styled Components';
 import { Boot } from './15-style in react/bootstrap/boot';
-import Rr from './16-react-router/rr'
-import { NestedRoute } from './16.1-nested,layout,index-route/nested,layout,index-route,dynamic';
+import Rr from './16-react-router/rr(main)'
+import { NestedRoute } from './16.1-types of route/nested,layout,index-route,dynamic';
+import { UseRef } from './17-Hook-useRef/UseRef';
+import { UnComponent } from './18-uncontrolled-component/UncoCompo';
+import { UnComponent2 } from './18-uncontrolled-component/UncoCompo2';
+import ForwardRef from './17-Hook-useRef/forwardRef/ForwardRef';
+import Useformst from './19-Hook-useFormStatus/useFormStatus';
+
 
 function App() {
       //refer chp no 7
@@ -187,7 +193,22 @@ function App() {
      <h5> Nested Route</h5>
      <NestedRoute></NestedRoute>
 
+    {/* ----------chp 17 -------------- */}
+     <h1>Chp-17</h1>
+     <h5>Hook - useRef</h5>
+     <UseRef/>
+      <ForwardRef></ForwardRef>
+    {/* ----------chp 18 -------------- */}
+     <h1>Chp-18</h1>
+     <h5>uncontrolled compoment with dom and useRef</h5>
+     <UnComponent></UnComponent>
+     <UnComponent2></UnComponent2>
   
+    {/* ----------chp 19 -------------- */}
+     <h1>Chp-19</h1>
+     <h5>Hook-useFormStatus</h5>
+     <Useformst/>
+     
     </div>
   );
 }

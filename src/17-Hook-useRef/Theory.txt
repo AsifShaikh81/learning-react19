@@ -1,0 +1,30 @@
+✅ useRef Hook Definition (in Hinglish):
+
+> useRef ek React Hook hai jo hume ek aisi value store karne deta hai jo component ke re-render hone par bhi same rehti hai, bina component ko dobara re-render kiye.
+
+Iska use DOM elements ko directly reference karne ya mutable (changeable) values ko store karne ke liye hota hai.
+
+
+
+
+---
+
+🧠 Simple Words Mein:
+
+Jaise tum ek dabba bana rahe ho jisme kuch bhi value rakh sakte ho.
+
+Us dabbe ko React touch nahi karega jab component render ho raha hoga.
+
+Aur us dabbe ke andar tum DOM element ya variable rakh sakte ho.
+
+
+
+---
+
+📌 Syntax:
+
+const myRef = useRef(initialValue);
+
+myRef.current se tum us value ko access/change kar sakte ho
+
+ref{myref} ---> add this on element which u want to manipulate

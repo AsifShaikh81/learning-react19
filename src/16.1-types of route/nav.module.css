@@ -5,3 +5,9 @@
     justify-content: space-around;
     border-radius: 10px;
 }
+
+.link{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}

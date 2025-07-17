@@ -7,12 +7,12 @@ export function Navbar1() {
           <div className={asif.Navbar}>
         
         
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/About1'>About</NavLink>
-        <NavLink to='/Register1'>Register</NavLink>
-        <NavLink to='/College1'>College</NavLink>
-        <NavLink to='/user'>Users</NavLink>
-        <NavLink to='user/list'>List</NavLink>
+        <NavLink className={asif.link} to='/'>Home</NavLink>
+        <NavLink className={asif.link} to='/About1'>About</NavLink>
+        <NavLink className={asif.link} to='/Register1'>Register</NavLink>
+        <NavLink className={asif.link} to='/College1'>College</NavLink>
+        <NavLink className={asif.link} to='/user'>Users</NavLink>
+        <NavLink className={asif.link} to='user/list'>List</NavLink>
         
         
         </div>

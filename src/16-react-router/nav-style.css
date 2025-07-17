@@ -8,3 +8,12 @@
 .Navbar .Link{
     color: black;
 }
+.active{
+    font-weight:900
+    
+    
+}
+
+.custom-active{
+    color: white;
+}

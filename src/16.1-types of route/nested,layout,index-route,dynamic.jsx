@@ -10,7 +10,7 @@ import { UserList } from "./Dynamic-route/UserList"
 import { UserDetails } from "./Dynamic-route/UserDetails"
 
 //ye sab mene learn kiya hai 
-//nested,layout,index,dynamic,segment-route
+//nested,layout,index,dynamic,segment-route,React Router NavLink and Active Class
 
 export function NestedRoute() {
     return (
@@ -23,13 +23,14 @@ export function NestedRoute() {
             <Route path="/" element={<Home1/>}/>
             <Route path="/About1" element={<About1/>}/>
             <Route path="/Register1" element={<Register1/>}/>
+            
             {/* Dynamic route */}
             <Route path="/user/list?" element={<UserList/>}/>   {/* static optional segmant "list?" */}
             <Route path="/user/:id/:name?" element={<UserDetails/>}/>  {/* dynamic optional segmant "name?" */}
-
             {/* Dynamic route */}
-
           </Route>
+
+
    
 
           
