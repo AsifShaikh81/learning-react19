@@ -37,7 +37,8 @@ import { UnComponent } from './18-uncontrolled-component/UncoCompo';
 import { UnComponent2 } from './18-uncontrolled-component/UncoCompo2';
 import ForwardRef from './17-Hook-useRef/forwardRef/ForwardRef';
 import Useformst from './19-Hook-useFormStatus/useFormStatus';
-
+import UseTransition from './20-Hook-useTransition/useTransition';
+import UseActionState from './21-Hook-UseAction/UseAction';
 
 function App() {
       //refer chp no 7
@@ -209,6 +210,15 @@ function App() {
      <h5>Hook-useFormStatus</h5>
      <Useformst/>
      
+    {/* ----------chp 20 -------------- */}
+     <h1>Chp-20</h1>
+     <h5>Hook-useTransition</h5>
+     <UseTransition/>
+     
+     {/* ----------chp 21 -------------- */}
+      <h1>Chp-21</h1>
+      <h5>Hook- UseActionState</h5>
+      < UseActionState/>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+diff useformtstatus and useTransition
+ useformtstatus: work only for forms
+
+
+UseTransition hook 
+ *It is used when you have some updates that can take time (like fetching data, filtering a big list). 
+ *React ka ek hook hai jo help karta hai heavy ya slow kaam background mein karne mein, taaki UI laggy na lage isliye hum spinner jaise loading ko laga deta hai 
+
+
+Kab use karte hain?
+Jab tumhara app koi slow kaam karta hai (jaise: badi list filter karna, data load karna), aur tum chahte ho ki user experience smooth rahe — tab useTransition use karte hain.
+
+
+
