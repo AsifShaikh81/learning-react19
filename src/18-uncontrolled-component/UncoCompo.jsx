@@ -1,4 +1,4 @@
-export  function UnComponent(params) {
+export  function UnComponent() {
          function handel(event) {
             event.preventDefault() // ---> this prevent from loading after submit
            const user = document.querySelector('#userName').value

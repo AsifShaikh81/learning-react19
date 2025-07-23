@@ -40,6 +40,8 @@ import Useformst from './19-Hook-useFormStatus/useFormStatus';
 import UseTransition from './20-Hook-useTransition/useTransition';
 import UseActionState from './21-Hook-UseAction/UseAction';
 import UseId from './22-Hook-UseID/UseID';
+import { ComponentA } from './24-context-Api/componentA';
+import Appp from './23-custom-hook/useToggle';
 
 function App() {
       //refer chp no 7
@@ -225,6 +227,16 @@ function App() {
        <h1>Chp-22</h1>
        <h5>Hook- UseID</h5>
        <UseId></UseId>
+    
+       {/* ----------chp 23 -------------- */}
+        <h1>Chp-23</h1>
+        <h5>custom hook</h5>
+        <Appp/>
+       
+       {/* ----------chp 24 -------------- */}
+        <h1>Chp-24</h1>
+        <h5>Context Api </h5>
+        <ComponentA/>
     </div>
   );
 }

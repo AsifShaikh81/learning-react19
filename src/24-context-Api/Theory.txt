@@ -1,0 +1,9 @@
+// using context api u can share data between component without prop drilling 
+// prop drilling - passing data through several layers of nested components in React,even though intermediate components don't directly utilize this data. This means that a middle component doesn't necessarily need the data, but it must still pass it down to the next component, creating an unnecessary and sometimes lengthy chain of props.
+
+// why use context api ?
+// prop drilling will slow down the website so, to prevent this we use context api 
+
+//CreateContext : To initiate Context API.
+//Provider : use for update or provide data. use this in component from where the data is passing 
+//useContext : get data from context api. use this in component where data is reciving 

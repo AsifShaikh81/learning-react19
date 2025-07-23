@@ -40,4 +40,4 @@ export default Useformst;
 //https://react.dev/reference/react-dom/hooks/useFormStatus --->read for clear understanding
 
 //waht is usefomm status ?
-//basicly it handles the loading state ,when i click submit it wait for the couple of secs and while waiting it changes the state like disabling buttion to let user know its been submitted 
+//basicly it handles the loading state ,when i click submit it wait for the couple of secs and while waiting it changes the state like disabling button to let user know its been submitted 
