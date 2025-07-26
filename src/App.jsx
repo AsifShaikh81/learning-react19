@@ -42,6 +42,8 @@ import UseActionState from './21-Hook-UseAction/UseAction';
 import UseId from './22-Hook-UseID/UseID';
 import { ComponentA } from './24-context-Api/componentA';
 import Appp from './23-custom-hook/useToggle';
+import Fdfa from './26-fetch data from api/fetch';
+import { Ijs } from './27-instal-json-server-and-make-api/jss';
 
 function App() {
       //refer chp no 7
@@ -237,6 +239,15 @@ function App() {
         <h1>Chp-24</h1>
         <h5>Context Api </h5>
         <ComponentA/>
+       {/* ----------chp 26 -------------- */}
+        <h1>Chp-26</h1>
+        <h5>fetch Api </h5>
+        <Fdfa></Fdfa>
+       {/* ----------chp 27 -------------- */}
+        <h1>Chp-27</h1>
+       <Ijs></Ijs>
+       
+        
     </div>
   );
 }
