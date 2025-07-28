@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Home1 from "../16.1-types of route/home";
+
 
 export function Ijs() {
   const [user, setUser] = useState([]);

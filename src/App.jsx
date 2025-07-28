@@ -44,7 +44,9 @@ import { ComponentA } from './24-context-Api/componentA';
 import Appp from './23-custom-hook/useToggle';
 import Fdfa from './26-fetch data from api/fetch';
 import { Ijs } from './27-instal-json-server-and-make-api/jss';
-
+import Userlist from './28-integrate-post-api-method/userlist';
+import DeleteApi from './29-Delete-Api/deleteApi';
+import NavigateHook from './Hook-UseNavigate/useNav';
 function App() {
       //refer chp no 7
       let obj ={Name:"peter" , 
@@ -229,6 +231,9 @@ function App() {
        <h1>Chp-22</h1>
        <h5>Hook- UseID</h5>
        <UseId></UseId>
+       {/* ----------chp  -------------- */}
+       <h1>hook - useNavigate</h1>
+       <NavigateHook/>
     
        {/* ----------chp 23 -------------- */}
         <h1>Chp-23</h1>
@@ -245,7 +250,15 @@ function App() {
         <Fdfa></Fdfa>
        {/* ----------chp 27 -------------- */}
         <h1>Chp-27</h1>
-       <Ijs></Ijs>
+        <Ijs></Ijs>
+       {/* ----------chp 28 -------------- */}
+        <h1>Chp-28</h1>
+        <h5>integrate-post-api-method</h5>
+       <Userlist></Userlist>
+       {/* ----------chp 29 -------------- */}
+        <h1>Chp-29</h1>
+        <h5>integrate-delete-api-method</h5>
+        <DeleteApi/>
        
         
     </div>

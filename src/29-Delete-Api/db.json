@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Asif",
+      "age": 22,
+      "email": "test1@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "peter",
+      "age": 20,
+      "email": "test2@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "sam",
+      "age": 23,
+      "email": "test3@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "john",
+      "age": 21,
+      "email": "test4@gmail.com"
+    },
+    {
+      "id": "2b83",
+      "name": "Shaikh Asif",
+      "age": "22",
+      "email": "test5@gmail.com"
+    },
+    {
+      "id": "475c",
+      "name": "Afifa",
+      "age": "3",
+      "email": "afifa@gamil.com"
+    }
+  ]
+}

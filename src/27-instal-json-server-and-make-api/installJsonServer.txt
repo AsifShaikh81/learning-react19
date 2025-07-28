@@ -1,1 +1,3 @@
 https://www.npmjs.com/package/json-server
+
+to run : npx json-server db.json
