@@ -47,6 +47,10 @@ import { Ijs } from './27-instal-json-server-and-make-api/jss';
 import Userlist from './28-integrate-post-api-method/userlist';
 import DeleteApi from './29-Delete-Api/deleteApi';
 import NavigateHook from './Hook-UseNavigate/useNav';
+import Edit from './30-update-putMethod-and-Edit/edit';
+import EditUser from './30-update-putMethod-and-Edit/Edituser';
+import { Routes,Route } from 'react-router';
+import UsePar from './Hook-useParam/UsePar';
 function App() {
       //refer chp no 7
       let obj ={Name:"peter" , 
@@ -234,6 +238,12 @@ function App() {
        {/* ----------chp  -------------- */}
        <h1>hook - useNavigate</h1>
        <NavigateHook/>
+       {/* ----------chp  -------------- */}
+       <h1>hook - useParams</h1>
+      
+        <Routes>
+        <Route path="/:fname/:lname" element={<UsePar/>}></Route>
+     </Routes>
     
        {/* ----------chp 23 -------------- */}
         <h1>Chp-23</h1>
@@ -259,12 +269,39 @@ function App() {
         <h1>Chp-29</h1>
         <h5>integrate-delete-api-method</h5>
         <DeleteApi/>
-       
-        
+       {/* ----------chp 30 -------------- */}
+        <h1>Chp-30</h1>
+        <h5>update-putMethod-and-Edit / error in while updating</h5>
+        <Edit/>
+       <Routes>
+        <Route path="/edit/:id" element={<EditUser/>}/>
+       </Routes>
+
     </div>
-  );
+);
+
 }
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        
 
 
 
