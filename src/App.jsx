@@ -51,6 +51,8 @@ import Edit from './30-update-putMethod-and-Edit/edit';
 import EditUser from './30-update-putMethod-and-Edit/Edituser';
 import { Routes,Route } from 'react-router';
 import UsePar from './Hook-useParam/UsePar';
+import { FormValidation } from './31-simple form validdation/valid';
+
 function App() {
       //refer chp no 7
       let obj ={Name:"peter" , 
@@ -276,6 +278,11 @@ function App() {
        <Routes>
         <Route path="/edit/:id" element={<EditUser/>}/>
        </Routes>
+      
+      {/* ----------chp 31 -------------- */}
+        <h1>Chp-31</h1>
+        <h5>Simple form validation</h5>
+        <FormValidation/>
 
     </div>
 );
