@@ -1,0 +1,9 @@
+lazy loading defination : Lazy loading in React means loading components only when required, instead of during the initial page load.
+
+lazy loading uss component pe apply karo joh component pe complex code hai aur zada time le raha hai load hone k liye jiske waje se baki component pe effect hora hai and performance slow kar raha hai
+
+What is Suspense?
+When React is loading a lazily loaded component, it doesn't have anything to show immediately. So we wrap it inside a Suspense component to show a fallback UI (like a loading spinner) while the component is being fetched.
+
+lazily loaded component = component jisme lazy loading apply hua hai 
+

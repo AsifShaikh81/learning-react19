@@ -52,6 +52,8 @@ import EditUser from './30-update-putMethod-and-Edit/Edituser';
 import { Routes,Route } from 'react-router';
 import UsePar from './Hook-useParam/UsePar';
 import { FormValidation } from './31-simple form validdation/valid';
+import HookReducer from './32-Hook- UseReducer/Hook-UseReducer';
+import LazyLoading from './33-Lazy-Loading/Lazy-Loading';
 
 function App() {
       //refer chp no 7
@@ -283,6 +285,16 @@ function App() {
         <h1>Chp-31</h1>
         <h5>Simple form validation</h5>
         <FormValidation/>
+
+      {/* ----------chp 32 -------------- */}
+        <h1>Chp-32</h1>
+        <HookReducer/>
+
+      {/* ----------chp 33 -------------- */}
+        <h1>Chp-32</h1>
+        <LazyLoading/>
+      
+
 
     </div>
 );

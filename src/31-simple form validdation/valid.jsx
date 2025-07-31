@@ -19,6 +19,8 @@ export function FormValidation (params) {
     }
 
     const regex = /^[A-Z0-9]+$/i;
+    // Regular Expression (Regex) is a sequence of characters that forms a search pattern. In React JS, it is used to validate and manipulate input fields by matching user input with defined patterns. 
+    // Here what regex doing, it checking "A-z" it means user input should be between A-z and "0-9" it means user input should be between 0-9. No special char are allowed. i = u can use upper and lower case
     const handelPassword = (e)=>{
         setPass(e.target.value)
         if (regex.test(e.target.value.length>5)){

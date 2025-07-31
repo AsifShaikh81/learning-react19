@@ -1,0 +1,23 @@
+useReducer hook is alternate to useState hook like useState hook u can define array,object,string in useReducer hook but useReducer hook can be use in only specific scenario bcz its contain complex code ,useRedicer hook can be used for handeling multiple input fields like more than 5 or 10 input fields
+
+why to use useReducer hook?
+in useState hook u have to define state for each input fields to store data , like if there is 10-15 input fields u have define 10-15 states to store data, it will be very complex. using useReducer u can define one state and store all the value as a object or array 
+
+syntax:   3      4                       1         2       
+const [state, dispatch] = useReducer(Reducer,initialState);
+
+1) Reducer: it is  function that take two arguments current 'state' and 'action' and return new state based on 'action'. it does not modify original state.
+ex: Reducer(currentState, action)
+
+2) initialState: This is a initial value when component renders.It can be a primitive value, an object, an array, or any other data structure that represents the starting point of your component's state.
+
+3) state: This is the current state value managed by the useReducer hook.it will be updated whenever 'Reducer' function return new state
+
+4) dispatch: This is a function that you call to dispatch an action.When dispatch is called with an 'action' object (EX: dispatch({ type: 'INCREMENT' });) ,React will call your reducer function with the current state and the dispatched action, and then update the state based on the reducer's return value.
+
+
+🔍 'action.type' kya hota hai?
+action.type koi method nahi hai, balki ek property (or key) hoti hai JavaScript object ke andar — jise hum action object kehte hain. Ye Redux ya React ke useReducer hook mein commonly use hoti hai.
+
+
+https://www.youtube.com/watch?v=TlSJVL3dvRM
