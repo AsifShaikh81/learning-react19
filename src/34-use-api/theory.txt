@@ -1,0 +1,29 @@
+what is "use" API?
+=>  state ka use kar ke mein api ka data store kar sakta hoon aur usse get kar sakta hoon(unwrap), 'use' api se  mujhe ye sab karne ki zarwat nahi woh automatically store aur unwrap kar dega aur mein usse easily get kar sakta hoon
+
+
+✅ prev: useState + useEffect se kya karte the?
+🔁 Tumhe manually karna padta tha:
+1)API call (fetch())
+
+2)Data ko state mein store (useState)
+
+3)useEffect se call lagana
+
+4)Loading check karna
+
+
+✅ Now: use() API se kya hota hai?
+🔥 React 19 ka use() khud hi:
+1)Promise ko handle karta hai
+
+2)Data ko unwrap karta hai
+
+3)Store karne ki zarurat nahi
+
+4)Re-render manage karta hai
+
+5)Suspense ke through loading dikhata ha
+
+➡️ Tum directly data.name, data.email use kar sakte ho
+➡️ Koi useState, useEffect, setData() ki zarurat nahi

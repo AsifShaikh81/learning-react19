@@ -54,6 +54,7 @@ import UsePar from './Hook-useParam/UsePar';
 import { FormValidation } from './31-simple form validdation/valid';
 import HookReducer from './32-Hook- UseReducer/Hook-UseReducer';
 import LazyLoading from './33-Lazy-Loading/Lazy-Loading';
+import { Sus } from './34-use-api/UseApi';
 
 function App() {
       //refer chp no 7
@@ -294,6 +295,9 @@ function App() {
         <h1>Chp-32</h1>
         <LazyLoading/>
       
+      {/* ----------chp 34 -------------- */}
+        <h1>Chp-34</h1>
+        <Sus/>
 
 
     </div>
